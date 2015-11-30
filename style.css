@@ -1,0 +1,166 @@
+h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+}
+
+body{
+    font-family: 'Slabo', serif;
+    background-color: #FFFBDC;
+}
+
+img{
+    width:10em;
+}
+
+.grid-container{
+    background-color: #FFFBDC;
+    border-style: dashed;
+    border-color: #FFC3E4;
+}
+
+#Logo{
+    background-color: #FFFBDC;
+    padding: 1em;
+}
+
+#Title{
+    background-color: #FFFBDC; 
+    padding: 1em;
+}
+
+#Title a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#Title a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#NumSoc{
+    background-color: #FFFBDC;
+}
+
+#NumSoc li{
+    list-style-type: none;
+    margin: 0.2em;
+}
+
+#NumSoc a:link{
+    color: black;
+}
+
+#NumSoc a:visited{
+    color: black;
+}
+
+#Nav{
+    background-color: #FFC3E4;
+}
+
+#Nav a:link{
+    width: 150px;
+    font-size: 16px;
+    height: 34px;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+#Nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+select {
+    background: transparent;
+    width: 150px;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #FFC3E4;
+    border-color: #e6b0cd;
+    font-family: 'Slabo', serif;
+    font-size: 16px;
+}
+
+select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+@media screen and (min-width:0\0) { 
+    select {
+        background:none;
+        padding: 5px;
+    }
+}
+
+#Basket{
+    background-color: #FFFBDC;
+    height: 25%;
+}
+
+#Content{
+    background-color: #FFFBDC;
+}
+
+hr{
+    background-color: #B27698;
+    height: 1px;
+}
+
+fieldset{
+    border-color: #FFC3E4;
+    margin: 1em;
+}
+
+#item{
+    background-color: #FFFBDC;
+    border-color: #FFFBDC;
+    width: 15em;
+    height: 15em;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+    margin: 1em;
+}
+
+form{
+    margin: 1em;
+}
+
+#Foot{
+    background-color: #FFC3E4;
+    margin: 0.2em;
+}
+
+#Foot i{
+    right: 1em;
+}
+
+#Foot a:link{
+    color: black;
+}
+
+#Foot a:visited{
+    color: black;
+}
+
+@font-face {
+    font-family: Kaushan Script;
+    src: url(fonts/Kaushan_Script/KaushanScript-Regular.ttf)
+ 
+}
+
+@font-face{
+    font-family: Slabo;
+    src: url(fonts/Slabo_27px/Slabo27px-Regular.ttf)
+}
