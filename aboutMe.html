@@ -3,38 +3,53 @@
 <html>
 
 <head>
-  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,
-                                   initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="p:domain_verify" content="f32adf17ba04bc43b709cae3417f16ae"/>
     <link rel='icon' href='images/favicon.ico'>
-    <title>itsastitch.co.uk</title>    
-    <link rel="stylesheet" type="text/css"
-        href="unsemantic-grid-responsive-tablet.css"/>
+    <title>itsastitch.co.uk About Me</title>    
+    <link rel="stylesheet" type="text/css" href="unsemantic-grid-responsive-tablet.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="JS/cookies.js"> </script>
+    <script src="JS/autoFill.js"> </script>
+    <?php include_once("analyticstracking.php") ?>
 </head>
 
 <body>
-
 <div class="grid-container">
-    
     <div id="Logo" class="grid-15 tablet-grid-20 mobile-grid-100 ">  
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a href="index.html">
+            <img src="images/logo.png" alt="logo">
+        </a>
     </div>
     
     <div id="Title" class="grid-50 tablet-grid-60 mobile-grid-100">
-        <a href="index.html"><h1>itsastitch.co.uk</h1></a>
+        <a href="index.html">
+            <h1>itsastitch.co.uk</h1>
+        </a>
     </div>
     
     <div id="NumSoc" class="grid-35 tablet-grid-20 mobile-grid-100 " >
         <ul>
-            <li><h3>Business Number</h3></li>
-            <li><a href="https://www.facebook.com/Itsastitch-1667630900172285/"><i class="fa fa-facebook-square fa-3x"></i></a></li>
-            <li><i class="fa fa-twitter-square fa-3x"></i></li>
-            <li><i class="fa fa-pinterest-square fa-3x"></i></li>
+            <li>
+                <h3>Business Number</h3>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/Itsastitch-1667630900172285/" target="_blank" >
+                    <i class="fa fa-facebook-square fa-3x" title="Facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/itsastitch2015?lang=en-gb/" target="_blank">
+                    <i class="fa fa-twitter-square fa-3x" title="Twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.pinterest.com/itsastitch15/" target="_blank">
+                    <i class="fa fa-pinterest-square fa-3x" title="Pinterest"></i>
+                </a>
+            </li>
         </ul>
     </div>
     
@@ -49,49 +64,53 @@
             <option value="glasses.html">Glasses Cases</option>
             <option value="seasonal.html">Seasonal</option>
         </select>
-        
+              
+        <a href="index.html">Home</a>  
         <a href="aboutMe.html">About Me</a>
         <a href="basket.html">Basket</a>
+        <a href="cookie.html">Cookie Policy</a>
         
     </div>
             
-    <div id="Basket" class="grid-25 tablet-grid-25 mobile-grid-25 ">
+    <div id="Basket" class="grid-25 tablet-grid-25 mobile-grid-100">
         <h2>Basket</h2>
         <span class="amount">£0.00</span>
     </div>
     
     <div id="Content" class="grid-75 tablet-grid-75 mobile-grid-75">
-        <h3>About Me</h3>
+        <h2>About Me</h2>
     </div>
     
-    <div id="Content" class="grid-75 tablet-grid-75 mobile-grid-75">
+    <div id="Content" class="grid-75 tablet-grid-75 mobile-grid-100">
         <h3>Contact Me</h3>
-        <form name="conForm" action="">
+        
+        <form name="conForm" action="" method="post">
             First name:</br>
-            <input type="text" name="firstname">
+            <input type="text" name="firstname" autocomplete="on">
             </br>
             Last name:
             </br>
-            <input type="text" name="lastname">
+            <input type="text" name="lastname" autocomplete="on">
             </br>
             Email:
             </br>
-            <input type="text" name="email">
+            <input type="text" name="email" autocomplete="on">
             </br>
             Message:
+            <textarea name="message" rows="10" cols="100" autocomplete="off" class="grid-100 tablet-grid-100 mobile-grid-100"></textarea>
             </br>
-            <textarea name="message" rows="10" cols="100"></textarea>
-            </br>
-            <button type="button" value="Set Cookie" onclick="WriteCookie();">Send Message</button>
+            <button type="submit" value="Set Cookie" onclick="saveCommentInformation()">Send Message</button>
         </form>
     </div>
     
     <div id="Foot" class="grid-100 tablet-grid-100 mobile-grid-100 " >
-        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fhandmade-itsastitch.site88.net"><i class="fa fa-check fa-2x"></i></a>
-        <a href="sitemap.xml"><i class="fa fa-map fa-2x" title="Site Map"></i></a>
-    </div>
-    
+        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fhandmade-itsastitch.site88.net" target="_blank">
+            <i class="fa fa-check fa-2x"></i>
+        </a>
+        <a href="sitemap.xml" target="_blank">
+            <i class="fa fa-map fa-2x" title="Site Map"></i>
+        </a>
+    </div>  
 </div>
-
 </body>
 </html>
