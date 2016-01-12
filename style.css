@@ -60,20 +60,29 @@ img{
 
 #Nav{
     background-color: #FFC3E4;
+    padding: 0.5em;
 }
 
 #Nav a:link{
-    width: 150px;
     font-size: 16px;
-    height: 34px;
     text-decoration: none;
-    padding: 20px;
+    padding: 0.5em;
     color: black;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
 }
 
 #Nav a:visited{
     text-decoration: none;
     color: black;
+}
+
+#Nav a:hover{
+    text-decoration: none;
+    color: black;
+    -webkit-box-shadow: 2px 2px 2px 2px #A37D92;
+    box-shadow: 2px 2px 2px 2px #A37D92;
+    
 }
 
 select {
@@ -87,6 +96,8 @@ select {
     border-color: #e6b0cd;
     font-family: 'Slabo', serif;
     font-size: 16px;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
 }
 
 select::-ms-expand { /* for IE 11 */
@@ -118,6 +129,8 @@ hr{
 fieldset{
     border-color: #FFC3E4;
     margin: 1em;
+    -webkit-box-shadow: 5px 5px 5px 5px #A37D92;
+    box-shadow: 5px 5px 5px 5px #A37D92;
 }
 
 #item{
@@ -135,6 +148,11 @@ li{
 
 form{
     margin: 1em;
+}
+
+form li{
+    list-style-type: none;
+    margin: 0.2em;
 }
 
 #Foot{
