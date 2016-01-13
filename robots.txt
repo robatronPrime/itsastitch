@@ -1,2 +1,5 @@
 User-agent: *
 Disallow:
+Disallow: /cgi-bin/
+Sitemap: http://www.handmade-itsastitch.site88.net/sitemap.xml
+

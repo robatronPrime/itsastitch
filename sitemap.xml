@@ -1,18 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.9">
 
-<url>
+
+<url> 
   <loc>http://handmade-itsastitch.site88.net/index.html</loc>
+    <lastmod>2016-01-12</lastmod> <!--  -->
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
 </url>
+    
 <url>
   <loc>http://handmade-itsastitch.site88.net/aboutMe.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
 </url>
+    
 <url>
   <loc>http://handmade-itsastitch.site88.net/basket.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
 </url>
+    
+<url>
+  <loc>http://www.handmade-itsastitch.site88.net/kitchenWare.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+    
+<url>
+  <loc>http://www.handmade-itsastitch.site88.net/bags.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.handmade-itsastitch.site88.net/storage.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.handmade-itsastitch.site88.net/cushions.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+    
+<url>
+  <loc>http://www.handmade-itsastitch.site88.net/glasses.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+    
+<url>
+  <loc>http://www.handmade-itsastitch.site88.net/seasonal.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+    
+<url>
+  <loc>http://www.handmade-itsastitch.site88.net/cookie.html</loc>
+    <lastmod>2016-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>
+    
 </urlset>
